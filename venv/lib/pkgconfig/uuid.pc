@@ -1,0 +1,11 @@
+prefix=/workspaces/Generic_LLM_App/venv
+exec_prefix=/workspaces/Generic_LLM_App/venv
+libdir=/workspaces/Generic_LLM_App/venv/lib
+includedir=/workspaces/Generic_LLM_App/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

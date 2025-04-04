@@ -1,0 +1,13 @@
+prefix=/workspaces/Generic_LLM_App/venv
+exec_prefix=/workspaces/Generic_LLM_App/venv
+libdir=/workspaces/Generic_LLM_App/venv/lib
+sharedlibdir=/workspaces/Generic_LLM_App/venv/lib
+includedir=/workspaces/Generic_LLM_App/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
